@@ -1,0 +1,405 @@
+/** ESTILOS INDEX**/
+body{
+    background-image: url("../Imagenes/bg-Cloudy.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@font-face{
+    font-family: "BebasNeue-Regular";
+    src: url("../Fonts/BebasNeue-Regular.otf");
+}
+.bebasneue{
+    font-family: "BebasNeue-Regular";
+    font-size: 20px;
+}
+.tituloHeader{
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+
+}
+/*Estilo NavBar Boostrap*/
+.navbar{
+    padding: 2rem;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+.titulos{
+    text-align: center; 
+    font-weight: bold; 
+    font-size: 40px;
+    padding-top: 5px;
+    background: white; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(253, 253, 253, 0.3);
+    /* text-align: center;
+    font-size: 40px;
+    margin: 10px; */
+}
+.nosotros{
+    /* width: 940px; */
+    margin: 0 auto;
+    padding: 10px;
+}
+.nosotros li{
+    display:inline-block;
+    text-align: center;
+    width: 46%;
+    vertical-align: top;
+    /* background: #415a77; */
+    margin: 0 1.5%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    /* border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;    * Redondear margenes* */
+}
+.mixologia{
+    /* width: 940px; */
+    margin: 0 auto;
+    padding: 10px; 
+}
+.mixologia li{
+    display:inline-block;
+    text-align: center;
+    width: 46%;
+    vertical-align: top;
+    /* background: #415a77; */
+    margin: 0 1.5%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    /* border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;    Redondear margenes* */
+}
+.nosotros h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.nosotros li a{
+    text-decoration: none;
+    color: white;  
+}
+.nosotros li a:hover{
+    color: #fca311;
+    text-decoration: underline;
+}
+.mixologia li a{
+    text-decoration: none;
+    color: white;  
+}
+.mixologia li a:hover{
+    color: #fca311;
+    text-decoration: underline;
+}
+
+.mixologia h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.descripcion{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.botonosotros{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: lightslategray;
+    transform: scale(1.2);
+}
+.imgtamano{
+    width: 100%;
+}
+footer{
+    text-align:center;
+    background-color:#212529;
+    padding: 20px;
+}
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 10px;
+}
+
+/**ESTILOS NOSOTROS**/
+.titulosNosotros{
+    text-align: left; 
+    font-weight: bold; 
+    font-size: 40px;
+    padding-top: 5px;
+    background: black;
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+}
+.contenedortxtNosotros{
+    /* border: 1px solid black;
+    background: #ccc;*/
+    padding: 5px;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.cajatxtNosotros{
+    /* border: 1px solid #945252;
+    background-color: white;*/
+    color: black;
+    line-height: 40px;
+    text-align: justify;
+    margin: 5px;
+    padding: 10px;
+    overflow: auto;
+}
+.contenedorimgNosotros{
+    /* border: 1px solid black;
+    background: #ccc; */
+    padding: 10px;
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.caja{
+    /* border: 1px solid #945252;
+    background-color: white; */
+    color: black;
+    width: 500px;
+    height: 500px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+    overflow: hidden;
+}
+.ajusteimg{
+    width: 100%;
+    height: 100%;
+    border-width: 2px;
+    border-radius: 10px;
+}
+.caja:hover img{
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+    transition-delay: 150ms;
+}
+/* .nosotrosMain{
+    margin: 0 auto;
+    padding: 10px;
+}
+.nosotrosMain h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.nosotrosMain li{
+    display:block;
+    text-align: center;
+    width: 95%;
+    margin: 0 1.5%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+
+} */
+.imgtamanoNosotros{
+    width: 500px;
+    height: 500px;
+}
+/**ESTILOS CHEFS**/
+.chefs{
+    /* width: 940px; */
+    margin: 0 auto;
+    padding: 10px;
+}
+.chefs h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.chefs li{
+    display:inline-block;
+    text-align: justify;
+    width: 46%;
+    vertical-align: middle;
+    /* background: #415a77; */
+    margin: 0 1.5%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    /* border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;    * Redondear margenes* */
+}
+.imgchefs{
+    width: 500px;
+    height: 500px;
+}
+
+/**ESTILOS CHEFS**/
+.cajaMenu{
+    width:1440px;
+    height: 300px;
+}
+.imgMenu1{
+    width:100%;
+    height: 300px;
+    opacity: 0.75;
+}
+.menuplatillos{
+    /* width: 940px; */
+    margin: 0 auto;
+    /* padding: 10px; */
+}
+.menuplatillos li{
+    display: block;
+    text-align: justify;
+    width: 200px;
+    /* background: #415a77; */
+    margin: 0 1.5%; 
+    padding: 10px 10px;
+    box-sizing: border-box;
+    /* border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;    */
+}
+.contenedor{
+    display: flex;
+}
+.menuplatillos li h3{
+    font-size: 30px;
+}
+
+/**ESTILOS RESERVAR**/
+
+.contenedor form .form-header .form-title{
+    font-weight: normal;
+    color:white;
+    text-align: center;
+    padding: 14px 0;
+}
+.contenedor form{
+    background: rgba(0,0,0,.6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+.contenedor form .form-label{
+    display: block;
+    color: white;
+    font-size: 16px;
+    position: relative;
+}
+.contenedor form .form-input, .form-textarea{
+    background: rgba(0,0,0,.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #457b9d;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    color: white;
+}
+.contenedor form .form-textarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+.contenedor form .btn-submit{
+    width: 100%;
+    outline: none;
+    background-color: #457b9d;
+    font-size:16px;
+    border: none;
+    color:white;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: 1s all;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.contenedor form .btn-submit:hover{
+    background: #118ab2;
+    transform: scale(1.1);
+}
+
+/* .styleMain{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-patron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: lightslategray;
+    transform: scale(1.2);
+} */
+
+*{/*{   ·········Reset CSS·········· */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+} 
+
+
+/*AJUSTE RESPONSIVE*/
+@media screen and (max-width: 991px) {
+    .navbar-brand{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1847px){
+    .contenedorimgNosotros{
+        justify-content: center;
+    }
+}

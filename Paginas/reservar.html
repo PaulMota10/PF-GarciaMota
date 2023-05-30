@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Imagenes/ArbolitoIcon.png">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Reservar</title>
+</head>
+<body class="bebasneue">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarToggler">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../Imagenes/ArbolitoIcon.png" alt="Logo restaurante">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../Paginas/nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../Paginas/chefs.html">Chefs</a>
+                      </li>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../Paginas/menu.html">Menu</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../Paginas/reservar.html">Reservar</a>
+                      </li> 
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <main> <!--class="styleMain"-->
+      <div class="contenedor">
+        <form action="">
+          <div class="form-header">
+            <h1 class="form-title">Contacto</h1>
+          </div>
+
+          <label for="nombre" class="form-label">Nombres: </label>
+          <input type="text" id="nombre" class="form-input" placeholder="Jose Alberto">
+
+          <label for="apellido" class="form-label">Apellidos </label>
+          <input type="text" id="apellido" class="form-input" placeholder="Lopez Castro">
+
+          <label for="correo" class="form-label">Correo Electronico: </label>
+          <input type="email" id="correo" class="form-input" placeholder="correo@dominio.com">
+
+          <label for="telefono" class="form-label">Telefono: </label>
+          <input type="text" id="telefono" class="form-input" placeholder="(XXX) XXX XXX XXXX">
+
+          <label for="mensaje" class="form-label">Mensaje: </label>
+          <textarea id="mensaje" class="form-textarea" placeholder="Aqui escriba algun mensaje"></textarea>
+
+          <fieldset>
+            <legend class="form-label">¿Como le gustaria ser contactado?</legend>
+
+            <label for="radio-correo" class="form-label"><input type="radio" name="contacto" value="correo" id="radio-correo">Correo</label>
+            <label for="radio-telefono" class="form-label"><input type="radio" name="contacto" value="correo" id="radio-telefono">Telefono</label>
+            <label for="radio-whatsapp" class="form-label"><input type="radio" name="contacto" value="correo" id="radio-whatsapp" checked>WhatsApp</label>
+          </fieldset>
+          <fieldset>
+            <legend class="form-label">¿En que horario le gustaria reservar?</legend>
+            <select>
+                <option>7:00 pm</option>
+                <option>8:00 pm</option>
+                <option>9:00 pm</option> 
+            </select>
+          </fieldset>
+          <input type="submit" class="btn-submit" value="Enviar">
+        </form>
+      </div>
+
+
+        <!-- <form>
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-patron" required placeholder="Jose Lopez">
+
+            <label for="correo">Correo Electronico</label>
+            <input type="email" id="correo" class="input-patron" required placeholder="correo@dominio.com">
+
+            <label for="telefono">Telefono</label>
+            <input type="tel" name="" id="telefono" class="input-patron" required placeholder="(XXX) XXX XXX XXXX">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea cols="63" rows="10" id="mensaje" class="input-patron" placeholder="Comentanos si necesitas algo mas"></textarea>
+
+            <fieldset>
+                <legend>¿Como le gustaria ser contactado?</legend>
+
+                <label for="radio-correo"><input type="radio" name="contacto" value="correo" id="radio-correo">Correo</label>
+                <label for="radio-telefono"><input type="radio" name="contacto" value="correo" id="radio-telefono">Telefono</label>
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="correo" id="radio-whatsapp" checked>WhatsApp</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>¿En que horario le gustaria reservar?</legend>
+                <select>
+                    <option>7:00 pm</option>
+                    <option>8:00 pm</option>
+                    <option>9:00 pm</option> 
+                </select>
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox" checked>¿Le gustaria ser contactado por el Restaurante?</label>
+            <input type="submit" value="Enviar" class="enviar">
+        </form> -->
+    </main>
+
+    <footer>
+        <img src="../Imagenes/ArbolitoIcon.png" alt="Logo Restaurante Arbolito">
+        <p class="copyright">&copy Copyright Restaurante Arbolito - 2023</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
