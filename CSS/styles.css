@@ -251,7 +251,8 @@ footer{
     height: 500px;
 }
 
-/**ESTILOS CHEFS**/
+/* *ESTILOS MENU*
+
 .cajaMenu{
     width:1440px;
     height: 300px;
@@ -262,30 +263,53 @@ footer{
     opacity: 0.75;
 }
 .menuplatillos{
-    /* width: 940px; */
+    width: 940px;
     margin: 0 auto;
-    /* padding: 10px; */
+    padding: 10px;
 }
 .menuplatillos li{
     display: block;
     text-align: justify;
     width: 200px;
-    /* background: #415a77; */
+    background: #415a77;
     margin: 0 1.5%; 
     padding: 10px 10px;
     box-sizing: border-box;
-    /* border-color: black;
+    border-color: black;
     border-width: 2px;
     border-style: solid;
-    border-radius: 10px;    */
+    border-radius: 10px;   
 }
 .contenedor{
     display: flex;
 }
 .menuplatillos li h3{
     font-size: 30px;
+} */
+.menu-restaurante{
+    background: rgba(41, 40, 40, 0.445);
 }
-
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.column-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+.menu-restaurante{
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    display: flex;
+    flex-flow: column;
+    line-height: 25px;
+}
+.menu-restaurante:hover{
+    transform: scale(1.025);
+}
 /**ESTILOS RESERVAR**/
 
 .contenedor form .form-header .form-title{
@@ -401,5 +425,17 @@ form label, form legend{
 @media screen and (max-width:1847px){
     .contenedorimgNosotros{
         justify-content: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .columns{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:480px) {
+    .columns{
+        grid-template-columns: repeat(1,1fr);
     }
 }
