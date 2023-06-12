@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /** ESTILOS INDEX**/
 body{
     background-image: url("../Imagenes/bg-Cloudy.svg");
@@ -201,111 +203,79 @@ footer{
     -webkit-transform:scale(1.1);transform:scale(1.1);
     transition-delay: 150ms;
 }
-/* .nosotrosMain{
-    margin: 0 auto;
-    padding: 10px;
-}
-.nosotrosMain h2 {
-    font-size: 30px;
-    font-weight: bold;
-}
-.nosotrosMain li{
-    display:block;
-    text-align: center;
-    width: 95%;
-    margin: 0 1.5%;
-    padding: 10px 10px;
-    box-sizing: border-box;
-
-} */
 .imgtamanoNosotros{
     width: 500px;
     height: 500px;
 }
-/**ESTILOS CHEFS**/
-.chefs{
-    /* width: 940px; */
-    margin: 0 auto;
-    padding: 10px;
-}
-.chefs h2 {
-    font-size: 30px;
-    font-weight: bold;
-}
-.chefs li{
-    display:inline-block;
-    text-align: justify;
-    width: 46%;
-    vertical-align: middle;
-    /* background: #415a77; */
-    margin: 0 1.5%;
-    padding: 10px 10px;
-    box-sizing: border-box;
-    /* border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;    * Redondear margenes* */
-}
-.imgchefs{
-    width: 500px;
-    height: 500px;
-}
 
-/* *ESTILOS MENU*
-
-.cajaMenu{
-    width:1440px;
-    height: 300px;
-}
-.imgMenu1{
-    width:100%;
-    height: 300px;
-    opacity: 0.75;
-}
-.menuplatillos{
-    width: 940px;
+/* *ESTILOS CHEFS* */
+.wrap-chefs{
+    max-width: 1800px;
     margin: 0 auto;
-    padding: 10px;
+    padding-bottom: 25px;
 }
-.menuplatillos li{
-    display: block;
-    text-align: justify;
-    width: 200px;
-    background: #415a77;
-    margin: 0 1.5%; 
-    padding: 10px 10px;
-    box-sizing: border-box;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;   
-}
-.contenedor{
-    display: flex;
-}
-.menuplatillos li h3{
-    font-size: 30px;
-} */
-.menu-restaurante{
-    background: rgba(41, 40, 40, 0.445);
-}
-.wrap{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.column-3{
+.column-3-chefs{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    column-gap: 1rem;
+    column-gap: 6rem;
     row-gap: 1rem;
 }
-.menu-restaurante{
+.chefs{
+    background: rgba(41, 40, 40, 0.562);
     color: white;
     text-align: center;
     border-radius: 6px;
     display: flex;
     flex-flow: column;
     line-height: 25px;
+    box-shadow: 0px 0px 20px 5px #000;
+}
+.chefs img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.profesion{
+    color: #aaa;
+}
+.parrafo{
+    font-size: 22px;
+    line-height: 30px;
+    color: #212529;
+}
+.chefs:hover{
+    transform: scale(1.025);
+}
+
+/* *ESTILOS MENU* */
+
+.wrap{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+.column-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 8rem;
+    row-gap: 1rem;
+}
+.menu-restaurante{
+    background: rgba(41, 40, 40, 0.445);
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    display: flex;
+    flex-flow: column;
+    line-height: 25px;
+    box-shadow: 18px 20px 20px 4px #000
+}
+.menu-restaurante img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
 }
 .menu-restaurante:hover{
     transform: scale(1.025);
@@ -368,44 +338,6 @@ footer{
     background: #118ab2;
     transform: scale(1.1);
 }
-
-/* .styleMain{
-    width: 940px;
-    margin: 0 auto;
-}
-form{
-    margin: 40px 0;
-}
-form label, form legend{
-    display: block;
-    font-size: 20px;
-    margin: 0 0 10px;
-}
-.input-patron{
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 50%;
-}
-.checkbox{
-    margin: 20px 0;
-}
-.enviar{
-    width: 40%;
-    padding: 15px 0;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    background: black;
-    border: none;
-    border-radius: 10px;
-    transition: 1s all;
-    cursor: pointer;
-}
-.enviar:hover{
-    background: lightslategray;
-    transform: scale(1.2);
-} */
 
 *{/*{   ·········Reset CSS·········· */
     margin: 0px;
