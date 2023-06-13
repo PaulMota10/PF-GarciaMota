@@ -1,0 +1,23 @@
+@media screen and (max-width: 991px) {
+    .navbar-brand{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1847px){
+    .contenedorimgNosotros{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .columns{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:480px) {
+    .columns{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

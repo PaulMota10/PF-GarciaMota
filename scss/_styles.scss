@@ -1,0 +1,48 @@
+*{/*{   ·········Reset CSS·········· */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url("../Imagenes/bg-Cloudy.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@font-face{
+    font-family: "BebasNeue-Regular";
+    src: url("../Fonts/BebasNeue-Regular.otf");
+}
+.bebasneue{
+    font-family: "BebasNeue-Regular";
+    font-size: 20px;
+}
+/*Estilo NavBar Boostrap*/
+.navbar{
+    padding: 2rem;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+.titulos{
+    text-align: center; 
+    font-size: 40px;
+    padding-top: 5px;
+    color: white;
+}
+footer{
+    text-align:center;
+    background-color:#212529;
+    padding: 20px;
+}
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 10px;
+}
+.parrafo{
+    font-size: 22px;
+    line-height: 30px;
+    color: white;
+}
